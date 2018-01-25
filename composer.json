@@ -1,5 +1,5 @@
 {
-    "name": "vic/simplecache",
+    "name": "simplecache/simplecache",
     "description": "RussiRussian Doll Caching for Laravel",
     "license": "MIT",
     "keywords": ["laravel", "cache"],
