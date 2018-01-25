@@ -1,0 +1,29 @@
+{
+    "name": "vic/simplecache",
+    "description": "RussiRussian Doll Caching for Laravel",
+    "license": "MIT",
+    "keywords": ["laravel", "cache"],
+    "authors": [
+        {
+            "name": "Traian Alexandru",
+            "email": "info@vic.com.ro"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^5.7@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vic\\Laracache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": ["tests/TestCase.php"]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0@dev",
+        "illuminate/database": "^5.7@dev",
+        "illuminate/cache": "^5.7@dev"
+    }
+}
